@@ -24,7 +24,7 @@ const EmployeeTable = ({ employees, onEdit, onDelete }: EmployeeTableProps) => {
                     <TableHead className="font-bold uppercase">Position</TableHead>
                     <TableHead className="font-bold uppercase">Department</TableHead>
                     <TableHead className="font-bold uppercase">Created At</TableHead>
-                    <TableHead className="text-right">Actions</TableHead>
+                    <TableHead className="text-right font-bold uppercase">Actions</TableHead>
                 </TableRow>
             </TableHeader>
 
