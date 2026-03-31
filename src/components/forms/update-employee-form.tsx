@@ -2,13 +2,13 @@
 
 import { FormEvent, useMemo, useState } from "react";
 import { toast } from "sonner";
-import { Button } from "@/app/components/ui/button";
-import { Input } from "@/app/components/ui/input";
-import { getInputFieldError, IInputErrorState } from "@/app/components/lib/getInputFiledError";
-import { zodValidator } from "@/app/components/lib/zodValidator";
-import { employeeManagement } from "@/app/services/employees/employee.management";
-import type { IEmployee, IEmployeePayload } from "@/app/types/employee.interface";
-import { updateEmployeeSchema } from "@/app/zod/employee.validation";
+import { getInputFieldError, IInputErrorState } from "@/lib/getInputFiledError";
+import { zodValidator } from "@/lib/zodValidator";
+import { employeeManagement } from "@/services/employees/employee.management";
+import type { IEmployee, IEmployeePayload } from "@/types/employee.interface";
+import { updateEmployeeSchema } from "@/zod/employee.validation";
+import { Input } from "../ui/input";
+import { Button } from "../ui/button";
 
 interface UpdateEmployeeFormProps {
     employee: IEmployee;

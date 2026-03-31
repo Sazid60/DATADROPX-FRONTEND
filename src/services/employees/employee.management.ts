@@ -1,10 +1,10 @@
-import { regularFetch } from "@/app/components/lib/regular-fetch";
+import { regularFetch } from "@/lib/regular-fetch";
 import type {
     IApiResponse,
     IEmployee,
     IEmployeePayload,
     IEmployeesData,
-} from "@/app/types/employee.interface";
+} from "@/types/employee.interface";
 
 interface IGetEmployeesParams {
     searchTerm?: string;
