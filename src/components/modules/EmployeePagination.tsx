@@ -24,7 +24,7 @@ const EmployeePagination = ({
 
             <div className="flex items-center gap-2">
                 <Button
-                    variant="secondary"
+                    variant="default"
                     size="sm"
                     onClick={onPreviousPage}
                     disabled={meta.page <= 1}
@@ -32,7 +32,7 @@ const EmployeePagination = ({
                     Previous
                 </Button>
                 <Button
-                    variant="secondary"
+                    variant="default"
                     size="sm"
                     onClick={onNextPage}
                     disabled={meta.page >= Math.max(meta.totalPage, 1)}
