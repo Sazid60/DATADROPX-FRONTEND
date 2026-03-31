@@ -1,4 +1,4 @@
-import { regularFetch } from "@/app/components/ui/lib/regular-fetch";
+import { regularFetch } from "@/app/components/lib/regular-fetch";
 import type {
     IApiResponse,
     IEmployee,
